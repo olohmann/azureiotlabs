@@ -13,14 +13,11 @@ Time Series Insights has four key jobs:
 * Third, Time Series Insights provides out-of-the-box visualization via the TSI explorer. 
 * Fourth, Time Series Insights provides a query service, both in the TSI explorer and by using APIs that are easy to integrate for embedding your time series data into custom applications.
 
-<iframe src="https://channel9.msdn.com/Shows/Internet-of-Things-Show/Time-Series-Insight-for-IoT-apps/player" width="480" height="270" allowFullScreen frameBorder="0"></iframe>
-
 In this lab you will learn
 
 * how to set up a Time Series Insights environment
 * explore
 * analyze time series data of your IoT solutions or connected things
-
 
 Click on **Create a Resource** and click on **Internet of Things**
 
@@ -33,6 +30,15 @@ Click on **Time Series Insights**
 Select the resource group you previously created and click **Create** button
 
 ![Create Time Series Insights Submit](images/02_Create_Time_Series_Inisghts_Submit.png)
+
+### Create a distinct consumer group
+
+Before connecting the Timeseries Insights instance with the IoT Hub, we need to make sure that a distinct consumer group is created in the IoT Hub. Consumer groups are used by applications to *pull* data from Azure IoT Hub - that's why the Time Series Insights consumer group should be distinct.
+
+Navigate to your IoT Hub and create a new consumer group:
+![Create Consumer Group Step 1](images/02a_Create_Consumer_Group_Step_1.png)
+
+![Create Consumer Group Step 2](images/02b_Create_Consumer_Group_Step_2.png)
 
 ### Create Event Source
 

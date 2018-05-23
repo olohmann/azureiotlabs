@@ -6,50 +6,34 @@ Labs using Azure Services to build Azure IoT End to End Solutions connecting rea
 
 ## Modules
 
-### Module 1: Introduction to Azure IoT Hub and Connect MXChip
+### Module 1: Introduction to Azure IoT Hub
 
-**Duration**: 60-90 minutes
-
-[Azure IoTHub Lab with MXChip](/IoTHub/README.md)
+[Azure IoT Hub Lab](/IoTHub/README.md)
 
 ### Module 2: Connect Pi Simulator to IoT Hub
 
-**Duration**: 30 minutes
-
-[Azure IoTHub Pi Simulator Lab](/IoTHub-PiSimulator/README.md)
+[Azure IoT Hub Pi Simulator Lab](/IoTHub-PiSimulator/README.md)
 
 ### Module 3: Visualize Time Series Data with Azure Time Series Insights
-
-**Duration**: 60 minutes
 
 [Time Series Insights Lab](/timeseriesinsights/README.md)
 
 ### Module 4: React to Critical Device Lifecycle Events and Trigger Actions
 
-**Duration**: 30 minutes
-
-[Azure IoTHub with Event Grid Lab](/EventGrid/README.md)
+[Azure IoT Hub with Event Grid Lab](/EventGrid/README.md)
 
 ### Module 5: Cold Path Storage
-
-**Duration**: 60-90 minutes
 
 [Azure Date Lake Store Lab](/DatalakeStore/README.md)
 
 ### Module 6: Hot Path Analytics
 
-**Duration**: 60 minutes
-
 [Cosmos DB Lab](/CosmosDB/README.md)
 
 ### Module 7: Batch Analytics
 
-**Duration**: 60 minutes
-
 [Azure Date Lake Analytics Lab](/DatalakeAnalytics/README.md)
 
 ### Module 8: Load Test using Device Simulator
-
-**Duration**: 30 minutes
 
 [Device Simulator](/DeviceSimulator/README.md)

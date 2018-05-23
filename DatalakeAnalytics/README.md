@@ -119,7 +119,7 @@ View Output File
 
 ![View Output File](images/20_VSCode_Open_Sample_Script_Output_Data.png)
 
-## Create an Analytics Job against MXChip Data to convert JSON to CSV using U-SQL and Data Lake Analytics
+## Create an Analytics Job against MXChip (or Simulator) Data to convert JSON to CSV using U-SQL and Data Lake Analytics
 
 ### Create a new mxchip_analytics.usql file in the project
 
